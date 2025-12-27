@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatars</title>
+    <style>
+        a {
+    color: azure;
+    font-size: larger;
+    text-align: center;
+    text-decoration: none;
+}
+.navbar {
+    height: 60px;
+    width: auto;
+    background-color: rgba(0, 0, 0, 0.904);
+    display: flex;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-logo {
+    height: 50px;
+    width: 50px;
+    background-color: brown;
+    background-image: url("logoAI.png");
+    background-size: cover;
+}
+.item1 {
+    height: fit-content;
+    width: fit-content;
+    margin-left: 5px;
+    margin-right: 550px;
+}
+.item2 {
+    height: 50px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.user-icon {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: black;
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+avatar-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f8f9ff;
+}
+
+.avatar-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.avatar-section .subtitle {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.avatar-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+.avatar-card {
+    background: white;
+    border-radius: 12px;
+    padding: 25px 20px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.avatar-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+
+.avatar-card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.avatar-card h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.avatar-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.talk-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #4a5cff;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.talk-btn:hover {
+    background: #303eff;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class = "navbar">
+            <div class="nav-logo"></div>
+            <div class="item1">
+                <a href="InnovAI.html">InnovAI</a>
+            </div>
+            <div class="item2">
+                <a href="Avatars.html">Avatars</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+            </div>
+            <div class="user-icon">
+                    <p>SP</p>
+            </div>
+        </div>
+    </header>
+    <section class="avatar-section">
+    <h2>Choose Your AI Avatar</h2>
+    <p class="subtitle">Talk to legendary personalities designed to guide, inspire, and support you.</p>
+
+    <div class="avatar-grid">
+
+        <div class="avatar-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3004/3004618.png" alt="Einstein">
+            <h3>Einstein AI</h3>
+            <p>Scientific reasoning & deep clarity.</p>
+            <a href="#" class="talk-btn">Talk Now</a>
+        </div>
+
+        <div class="avatar-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/4140/4140048.png" alt="Vivekananda">
+            <h3>Vivekananda AI</h3>
+            <p>Mindset, purpose & inner strength.</p>
+            <a href="#" class="talk-btn">Talk Now</a>
+        </div>
+
+        <div class="avatar-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/1998/1998592.png" alt="Tesla">
+            <h3>Tesla AI</h3>
+            <p>Innovation & world-changing ideas.</p>
+            <a href="#" class="talk-btn">Talk Now</a>
+        </div>
+
+        <div class="avatar-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/4333/4333609.png" alt="APJ">
+            <h3>APJ Abdul Kalam AI</h3>
+            <p>Motivation, career & leadership.</p>
+            <a href="#" class="talk-btn">Talk Now</a>
+        </div>
+
+        <div class="avatar-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/2202/2202112.png" alt="Therapist">
+            <h3>Therapist AI</h3>
+            <p>Emotional clarity & calm support.</p>
+            <a href="#" class="talk-btn">Talk Now</a>
+        </div>
+
+        <div class="avatar-card">
+            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Innovator">
+            <h3>Innovator Mentor AI</h3>
+            <p>Startup, strategy & execution help.</p>
+            <a href="#" class="talk-btn">Talk Now</a>
+        </div>
+
+    </div>
+</section>
+</content>
+
+</body>
+</html>
